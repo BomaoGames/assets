@@ -271,7 +271,7 @@
 //左右切换轮播
 (function ($) {
     if (navigator.userAgent.indexOf("MSIE 8.0") < 0) {        //如果为ie8就不能加载js
-        $.getScript('/gh/bomaogames/assets/js/swiper.min.js').then(function () {  //动态加载js文件
+        $.getScript('https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js').then(function () {  //动态加载js文件
             var swiper = new Swiper('.swiper-container', {
                 pagination: '.swiper-pagination',
                 paginationClickable: true,
